@@ -17,11 +17,11 @@ in both JavaScript and TypeScript codebases. While in beta, to install the libra
 need to `npm install` directly from the GitHub repository.
 
 ```shell
-$ npm i openai/openai-realtime-api-beta --save
+$ npm i openai/openai-realtime-api-beta-vinender --save
 ```
 
 ```javascript
-import { RealtimeClient } from '@openai/realtime-api-beta';
+import { RealtimeClient } from '@openai/realtime-api-beta-vinender';
 
 const client = new RealtimeClient({ apiKey: process.env.OPENAI_API_KEY });
 
@@ -58,7 +58,7 @@ You can use this client directly from the browser in e.g. React or Vue apps.
 In order to instantiate the client in a browser environment, use:
 
 ```javascript
-import { RealtimeClient } from '@openai/realtime-api-beta';
+import { RealtimeClient } from '@openai/realtime-api-beta-vinender';
 
 const client = new RealtimeClient({
   apiKey: process.env.OPENAI_API_KEY,
